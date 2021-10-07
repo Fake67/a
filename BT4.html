@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript">
+			function a(d){
+                var dai=d.value.length;
+                if(dai>200){
+                    alert("bạn gõ quá số ký tự cho phép");
+                }
+                else{
+                    frm.text.value=frm.area.value.length+" ký tự";
+                }
+            }
+		</script>
+	</head>
+	<body>
+		<form name="frm">
+			<textarea name="area" onkeyup="a(this)">Nội dung</textarea><br>
+            <input type="text" name="text" value="sokytu">
+		</form>
+			
+	</body>
+</html>
